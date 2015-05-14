@@ -11,10 +11,10 @@ def main():
 
     if len(argList) == 1:
         sys.exit('Give IP and port as arguments')
-    else if len(argList) == 2:
+    elif len(argList) == 2:
         tcp_ip   = argList[1].split(":")[0]
         tcp_port = argList[1].split(":")[1]
-    else if len(argList) == 3:
+    elif len(argList) == 3:
         tcp_ip   = argList[1]
         tcp_port = argList[2]
     else:

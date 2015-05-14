@@ -8,10 +8,10 @@ def main():
 
     if argList == 1:
         sys.exit('Give IP and port to listen to')
-    else if argList == 2:
+    elif argList == 2:
         tcp_ip   = argList[1].split(":")[0]
         tcp_port = argList[1].split(":")[1]
-    else if argList == 3:
+    elif argList == 3:
         tcp_ip   = argList[1]
         tcp_port = argList[2]
     else:
